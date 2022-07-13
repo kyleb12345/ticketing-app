@@ -7,7 +7,11 @@ import { ExpirationCompleteListener } from './events/listeners/expiration-comple
 import { PaymentCreatedListener } from './events/listeners/payment-created-listener';
 
 const start = async () => {
+<<<<<<< HEAD
     console.log('Starting........');
+=======
+    console.log('Starting.........');
+>>>>>>> 05e8c9e62347da406e1d39bef8f9031334fa0929
 
     if (!process.env.JWTOKEN_KEYLING) {
         throw new Error('JWTOKEN_KEYLING must be defined');
