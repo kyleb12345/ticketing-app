@@ -5,7 +5,11 @@ import { OrderCreatedListener } from './events/listener/order-created-listener';
 import { OrderCancelledListener } from './events/listener/order-cancelled-listener';
 
 const start = async () => {
+<<<<<<< HEAD
     console.log('Starting.........');
+=======
+    console.log('Starting..........');
+>>>>>>> 92bc773c9abf91f1d45f639b9ee3d247329e2868
 
     if (!process.env.JWTOKEN_KEYLING) {
         throw new Error('JWTOKEN_KEYLING must be defined');
